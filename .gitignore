@@ -1,0 +1,9 @@
+# package directories
+node_modules
+jspm_packages
+dist/css/main.css
+dist/js/bundle.js
+.idea
+.env.production
+# Serverless directories
+.serverless

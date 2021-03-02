@@ -1,0 +1,18 @@
+service: pachamama-web
+# The `provider` block defines where your service will be deployed
+provider:
+  name: aws
+  runtime: nodejs12.x
+  profile: pachamama
+  region: eu-west-3
+  stage: prod
+
+# The `functions` block defines what code to deploy
+plugins:
+  - serverless-finch
+  - serverless-dotenv-plugin
+
+custom:
+    client:
+        bucketName: ${env:AWS_BUCKET}
+        distributionFolder: dist
