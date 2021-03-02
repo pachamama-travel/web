@@ -1,7 +1,6 @@
 # web
 
-This app use serverless framework to deploy simple coming soon https:://pachamama.travel website
-
+This app use serverless framework to deploy simple coming soon [pachamama.travel](https://pachamama.travel) website
 ```
 sls client deploy 
 ``` 
