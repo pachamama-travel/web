@@ -9,6 +9,7 @@ npm run build # Create the files in dist/
 ```
 
 ## Deploy with [⚡ Serverless Framework](https://github.com/serverless/serverless)
+Update .env or create .env.production file to update **AWS_BUCKET** (bucket will be automatically created)
 ```shell
 sls client deploy 
 ``` 
